@@ -1,4 +1,3 @@
-/* Estilos Globais - Mesmos estilos de antes */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #282828;
@@ -79,11 +78,10 @@ header nav ul li a:hover {
 }
 
 .section ul li img {
-    width: 125px;  /* Largura fixa */
-    height: 125px; /* Altura fixa */
-    object-fit: cover; /* Garante que a imagem não distorça */
-    margin-right: 20px;
-    border-radius: 35%; /* Mantém o formato circular */
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 35%;
     transition: transform 0.3s ease;
 }
 
@@ -94,14 +92,13 @@ header nav ul li a:hover {
 }
 
 .section ul li:hover img {
-    transform: scale(1.1); /* Aumenta suavemente a imagem no hover */
+    transform: scale(1.1);
 }
 
 .section ul li:hover a {
     color: #4CAF50;
 }
 
-/* Rodapé */
 footer {
     text-align: center;
     padding: 20px;
@@ -117,7 +114,24 @@ footer {
     margin-left: 20px;
 }
 
-/* Responsividade */
+.ia-container {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.ia-container img {
+    margin-right: 15px;
+}
+
+.ia-container span {
+    position: relative;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
 @media (max-width: 768px) {
     .container {
         width: 90%;
